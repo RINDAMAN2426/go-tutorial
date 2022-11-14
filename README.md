@@ -46,3 +46,13 @@
 
 - 패키지 명은 테스트할 패키지와 동일
 
+# Chapter 8 - 컴파일 및 설치
+
+- `build`는 컴파일을 실행하지만 결과를 설치하지는 않음. `install`은 컴파일 및 설치를 수행함
+
+- `GOBIN` 혹은 `PATH`를 추가하면 해당 바이너리 위치가 아니어도 실행이 가능함
+
+- `export PATH=$PATH:/path/to/your/install/directory` , `go env -W GOBIN=/path/to/your/bin`
+
+
+
