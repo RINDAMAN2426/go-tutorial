@@ -33,3 +33,11 @@
 - slice의 사이즈를 생략하여 정의할 경우(`[]string`), 동적으로 변할 수 있음을 알림
 
 - `init` 함수의 경우는 프로그램이 시작할 때, 전역 변수가 초기화 되고 난 후, 자동적으로 실행 됨
+
+# Chapter 6 - 여러 키 대응하기
+
+- map 초기화 방법은 `make(map[key-type]value-type)`
+
+- for loop range는 첫번째 요소는 인덱스, 두 번째는 item 값의 복사값이다. 사용이 필요 없는 경우 underscore로 대체한다.
+
+
