@@ -54,5 +54,17 @@
 
 - `export PATH=$PATH:/path/to/your/install/directory` , `go env -W GOBIN=/path/to/your/bin`
 
+# Chapter 9 - 여러 모듈로 된 프로젝트
+
+- `go work init`을 통해 해당 모듈을 워크 스페이스에 포함 시킴
+
+- `go.work` 안의 `use` 지시문은 빌드 수행 시 기본 모듈임을 나타냄. 나머지 하위 디렉토리는 서브 모듈로써의 역할이 가능해짐
+
+- `go work use`를 통해 모듈 추가가 가능. 예시코드와 같이 수행할 경우 해당 모듈 소스를 다운로드한 캐시 모듈이 아닌 로컬 소스를 통해 실행 가능함. 따라서 예시코드와 같이 로컬 복사본에 함수를 추가한 후 해당 함수를 호출할 수 있음
+
+
+
+
+
 
 
