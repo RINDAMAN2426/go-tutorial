@@ -79,3 +79,7 @@
 # Chapter 12 - Generic
 
 - `comparable`은 후위 서술되는 어떤 타입이 비교연산자 수행이 가능케함.
+
+# Chapter 13 - Fuzz
+
+- `Fuzzing`의 장점은 유닛테스트 시 입력을 매번 만들어 내야하는 불편함을 줄여줌
